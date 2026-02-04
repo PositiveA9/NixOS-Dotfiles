@@ -149,7 +149,7 @@
         wallpaper = {
           enabled = true;
           overviewEnabled = false;
-          directory = "";
+          directory = "/home/nix/Pictures/wallpapers/frierenwallpaper.jpg";
           monitorDirectories = [ ];
           enableMultiMonitorDirectories = false;
           showHiddenFiles = false;
