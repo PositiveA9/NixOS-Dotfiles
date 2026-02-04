@@ -23,7 +23,7 @@
 				padding = {
 					top = 2;
 					left = 3;
-					right = 2;
+					right = 0;
 				};
 				width = 40;
 			};
