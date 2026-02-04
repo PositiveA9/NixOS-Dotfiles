@@ -128,7 +128,7 @@
           analogClockInCalendar = false;
           firstDayOfWeek = -1;
           hideWeatherTimezone = false;
-          hideWeatherCityName = false;
+          hideWeatherCityName = true;
         };
         calendar = {
           cards = [
