@@ -404,7 +404,7 @@
           enableDdcSupport = false;
         };
         colorSchemes = {
-          useWallpaperColors = false;
+          useWallpaperColors = true;
           predefinedScheme = "Noctalia (default)";
           darkMode = true;
           schedulingMode = "off";
