@@ -126,7 +126,7 @@
 	programs.zsh = {
     enable = true;
     enableCompletion = true;
-    autosuggestion.enable = true;
+    autosuggestion.enable = false;
     syntaxHighlighting.enable = true;
 
     shellAliases = {
@@ -148,7 +148,7 @@
     history.path = "$HOME/.zsh_history";
     history.ignorePatterns = ["rm *" "pkill *" "cp *"];
 
-    initContent = '' 
+    initExtra = '' 
 	fastfetch
     '';
   };
