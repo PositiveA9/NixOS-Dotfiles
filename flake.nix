@@ -1,5 +1,5 @@
 {
-  description = "NixOS from Scratch";
+  description = "Noctalia Shell From Scratch";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
