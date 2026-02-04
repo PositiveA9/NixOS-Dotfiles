@@ -67,6 +67,7 @@
               }
               {
                 id = "ControlCenter";
+		icon = "nix-snowflake";
               }
             ];
           };
