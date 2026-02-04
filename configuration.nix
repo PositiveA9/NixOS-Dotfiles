@@ -67,6 +67,7 @@
      wine64
      winetricks
      discord
+     feh
    ];
 
    fonts.packages = with pkgs; [
