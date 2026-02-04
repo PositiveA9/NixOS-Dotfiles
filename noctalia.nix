@@ -11,7 +11,7 @@
         settingsVersion = 0;
         bar = {
           barType = "simple";
-          position = "left";
+          position = "top";
           monitors = [ ];
           density = "default";
           showOutline = false;
