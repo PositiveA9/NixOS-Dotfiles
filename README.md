@@ -6,6 +6,8 @@ My personal NixOS configuration featuring the Niri window manager with Noctalia-
 
 <img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/1b4f93eb-8667-472c-8a64-a60e2d8c346c" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07c4a363-ab07-432e-a888-8b49c8aa4475" />
+
 ## Overview
 
 This repository contains a fully declarative NixOS configuration that leverages the power of Nix flakes for reproducible system builds. The setup features a modern Wayland-based desktop environment with automated theming and a (not so) carefully curated selection of tools and applications (it's relatively bloated, although that's an easy fix on your end).
