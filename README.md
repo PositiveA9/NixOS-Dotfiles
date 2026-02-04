@@ -112,7 +112,8 @@ When setting up this configuration on a different computer:
    ```bash
    sudo nixos-rebuild switch --flake .#nixos
    ```
-
+## Usage
+Feel free to fork this or do basically anything else with it, this is just a baseline.
 
 ## Contributing
 
