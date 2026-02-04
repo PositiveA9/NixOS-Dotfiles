@@ -110,31 +110,6 @@ When setting up this configuration on a different computer:
    sudo nixos-rebuild switch --flake .#nixos
    ```
 
-## Customization
-
-### Changing the Theme
-
-Noctalia-Shell generates themes based on your wallpaper. To update:
-
-1. Set your desired wallpaper
-2. Noctalia will automatically generate a new color scheme
-3. Rebuild to apply changes:
-   ```bash
-   sudo nixos-rebuild switch --flake /etc/nixos#nixos
-   ```
-
-### Modifying Packages
-
-- **System packages:** Edit the `environment.systemPackages` list in `configuration.nix`
-- **User packages:** Edit the `home.packages` list in `home.nix`
-
-### Terminal Customization
-
-Alacritty configuration can be found in `home.nix`. Adjust opacity, fonts, or other settings there.
-
-## License
-
-This configuration is provided as-is for personal use and learning. Feel free to use and modify it for your own NixOS setup.
 
 ## Contributing
 
