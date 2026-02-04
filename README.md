@@ -1,6 +1,6 @@
 # NixOS-Dotfiles
 
-My personal NixOS configuration featuring the Niri window manager with Noctalia-Shell theming, managed using Nix flakes and Home Manager.
+My personal NixOS configuration featuring the Niri window manager with Noctalia-Shell as the bar, managed using Nix flakes and Home Manager.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f18c0816-c3a3-4930-a7ae-b043f93db2c9" />
 
