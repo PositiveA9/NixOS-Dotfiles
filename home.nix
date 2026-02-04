@@ -148,7 +148,7 @@
     history.path = "$HOME/.zsh_history";
     history.ignorePatterns = ["rm *" "pkill *" "cp *"];
 
-    initExtra = '' 
+    initContent = '' 
 	fastfetch
     '';
   };
