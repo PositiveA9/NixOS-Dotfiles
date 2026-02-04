@@ -149,7 +149,7 @@
         wallpaper = {
           enabled = true;
           overviewEnabled = false;
-          directory = "/home/nix/Pictures/Wallpapers/akatsuki-no-hana.jpeg";
+          directory = "/home/nix/Pictures/wallpapers";
           monitorDirectories = [ ];
           enableMultiMonitorDirectories = false;
           showHiddenFiles = true;
