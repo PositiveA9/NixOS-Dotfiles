@@ -149,10 +149,10 @@
         wallpaper = {
           enabled = true;
           overviewEnabled = false;
-          directory = "/home/nix/Pictures/wallpapers/frierenwallpaper.jpg";
+          directory = "/home/nix/Pictures/Wallpapers/akatsuki-no-hana.jpeg";
           monitorDirectories = [ ];
           enableMultiMonitorDirectories = false;
-          showHiddenFiles = false;
+          showHiddenFiles = true;
           viewMode = "single";
           setWallpaperOnAllMonitors = true;
           fillMode = "crop";
