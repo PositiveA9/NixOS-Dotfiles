@@ -39,7 +39,7 @@ nixos-generate-config --show-hardware-config
 ### Desktop Environment
 - **Window Manager:** Niri - A scrollable-tiling Wayland compositor
 - **Wayland:** Full Wayland support for modern display server protocol
-- **Theming:** Noctalia-Shell for dynamic, wallpaper-based color generation
+- **Theming:** Noctalia-Shell for dynamic, wallpaper-based color generation as well as a functional and customizable bar.
 - **Visuals:** Automatic theme generation based on your wallpaper (when enabled in Noctalia)
 
 ### Terminal & Shell
