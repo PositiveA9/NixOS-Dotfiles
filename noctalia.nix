@@ -67,7 +67,7 @@
               }
               {
                 id = "ControlCenter";
-		icon = "/run/current-system/sw/share/icons/hicolor/scalable/apps/nix-snowflake-white.sv";
+		useDistroLogo = true;
               }
             ];
           };
