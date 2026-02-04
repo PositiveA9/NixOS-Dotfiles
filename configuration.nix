@@ -88,7 +88,7 @@
     cd /etc/nixos
     ${pkgs.git}/bin/git add .
     ${pkgs.git}/bin/git commit -m "NixOS rebuild on $(${pkgs.nettools}/bin/hostname) - $(${pkgs.coreutils}/bin/date '+%Y-%m-%d %H:%M:%S')" || true
-    #{pkgs.git}/bin/git pull --rebase origin master || true
+    #{pkgs.git}/bin/git pull --rebase --autostash origin master || true
     ${pkgs.git}/bin/git push || true
   '';
 
