@@ -58,7 +58,6 @@ nixos-generate-config --show-hardware-config
 ### Prerequisites
 
 - NixOS installed on your system
-- Flakes enabled in your Nix configuration
 - Architecture: `x86_64-linux`
 - Channel: `nixos-unstable`
 
