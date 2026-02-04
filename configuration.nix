@@ -35,6 +35,8 @@
 
    programs.firefox.enable = true;
 
+   programs.thunar.enable = true;
+
    programs.zsh.enable = true;
 
    environment.sessionVariables = {
