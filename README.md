@@ -15,6 +15,7 @@ This repository contains a fully declarative NixOS configuration that leverages 
 | `flake.nix` | Flake entry point that declares inputs and integrates Home Manager into the system configuration |
 | `configuration.nix` | System-wide configuration including bootloader, networking, programs, packages, and fonts |
 | `home.nix` | User-level configuration managed by Home Manager for shell, terminal, cursor, and system fetch |
+| `noctalia.nix` | Defines noctalia-shell configurations.
 | `hardware-configuration.nix` | Auto-generated hardware-specific configuration (machine-specific, not to be edited manually) |
 
 ## [Hardware Configuration]
