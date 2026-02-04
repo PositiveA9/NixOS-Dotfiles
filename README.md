@@ -123,5 +123,6 @@ While this is a personal configuration, suggestions and improvements are welcome
 - [NixOS Manual](https://nixos.org/manual/nixos/stable/)
 - [Home Manager Manual](https://nix-community.github.io/home-manager/)
 - [Niri Window Manager](https://github.com/YaLTeR/niri)
-- [Noctalia-Shell](https://github.com/Noctalia-Shell/noctalia)
+- [Noctalia-Shell](https://github.com/noctalia-dev/noctalia-shell)
+- [Noctalia Documentation](https://docs.noctalia.dev/)
 - [Nix Flakes](https://nixos.wiki/wiki/Flakes)
