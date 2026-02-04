@@ -23,9 +23,9 @@
 				padding = {
 					top = 2;
 					left = 3;
-					right = -5;
+					right = 0;
 				};
-				width = 30;
+				width = 20;
 			};
 			modules = [
 				"break"
