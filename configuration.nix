@@ -64,6 +64,7 @@
      htop
      wine64
      winetricks
+     discord
    ];
 
    fonts.packages = with pkgs; [
