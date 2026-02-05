@@ -32,17 +32,18 @@
           widgets = {
             left = [
               {
-                id = "Launcher";
-              }
-              {
                 id = "Clock";
+		formatHorizontal = "h:mm A";
               }
               {
                 id = "SystemMonitor";
               }
               {
                 id = "MediaMini";
-              }
+                scrollingMode="never";
+		useFixedWidth = false;
+		maxWidth = 900;             
+	      }
             ];
             center = [
               {
@@ -56,15 +57,21 @@
               {
                 id = "NotificationHistory";
               }
+	      {
+		id = "Brightness";
+	      }
               {
                 id = "Battery";
+		displayMode="alwaysShow";
               }
               {
                 id = "Volume";
+		displayMode="alwaysShow";
               }
-              {
-                id = "Brightness";
-              }
+	      {
+		id = "Bluetooth";
+		displayMode="alwaysShow";
+	      } 
               {
                 id = "ControlCenter";
 		useDistroLogo = true;
@@ -326,7 +333,7 @@
           powerOptions = [
             {
               action = "lock";
-              enabled = true;
+              enabled = false;
             }
             {
               action = "suspend";
@@ -334,7 +341,7 @@
             }
             {
               action = "hibernate";
-              enabled = true;
+              enabled = false;
             }
             {
               action = "reboot";
@@ -342,7 +349,7 @@
             }
             {
               action = "logout";
-              enabled = true;
+              enabled = false;
             }
             {
               action = "shutdown";
@@ -404,20 +411,16 @@
           enforceMinimum = true;
           enableDdcSupport = false;
         };
-        colorSchemes = {
-          useWallpaperColors = true;
-          predefinedScheme = "Noctalia (default)";
-          darkMode = true;
-          schedulingMode = "off";
-          manualSunrise = "06:30";
-          manualSunset = "18:30";
-          generationMethod = "vibrant";
-          monitorForColors = "";
-        };
-        templates = {
-          activeTemplates = [ ];
-          enableUserTheming = false;
-        };
+	    colorSchemes = {
+  		useWallpaperColors = true;
+ 		 predefinedScheme = "Noctalia (default)";
+ 		 darkMode = true;
+ 		 schedulingMode = "off";
+ 		 manualSunrise = "06:30";
+ 		 manualSunset = "18:30";
+ 		 generationMethod = "vibrant";
+ 		 monitorForColors = "";
+		};
         nightLight = {
           enabled = false;
           forced = false;

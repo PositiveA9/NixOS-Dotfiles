@@ -35,6 +35,8 @@
 
    programs.firefox.enable = true;
 
+   programs.steam.enable = true;
+
    programs.thunar.enable = true;
 
    programs.zsh.enable = true;
@@ -55,20 +57,25 @@
   };
 
    environment.systemPackages = with pkgs; [
-     vim 
-     wget
-     git
-     alacritty
-     fuzzel
-     fastfetch
-     bibata-cursors
-     google-chrome
-     htop
-     wine64
-     winetricks
-     discord
-     feh
-   ];
+	vim 
+	wget
+	git
+	alacritty
+	fuzzel
+	fastfetch
+	bibata-cursors
+	google-chrome
+	htop
+	wine64
+	winetricks
+	discord
+	feh
+	unzip
+	unrar
+	xwayland-satellite
+	wl-clipboard
+
+];
 
    fonts.packages = with pkgs; [
      nerd-fonts.jetbrains-mono
@@ -80,18 +87,6 @@
      sansSerif = [ "JetBrains Mono Nerd Font" ];
      serif     = [ "JetBrains Mono Nerd Font" ];
    };
-
- 
-
-  system.activationScripts.pushDotfiles = ''
-    export PATH=${pkgs.openssh}/bin:${pkgs.git}/bin:$PATH
-    cd /etc/nixos
-    ${pkgs.git}/bin/git add .
-    ${pkgs.git}/bin/git commit -m "NixOS rebuild on $(${pkgs.nettools}/bin/hostname) - $(${pkgs.coreutils}/bin/date '+%Y-%m-%d %H:%M:%S')" || true
-    #{pkgs.git}/bin/git pull --rebase --autostash origin master || true
-    ${pkgs.git}/bin/git push || true
-  '';
-
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
   system.stateVersion = "25.11";

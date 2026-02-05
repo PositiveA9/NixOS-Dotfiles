@@ -22,6 +22,7 @@
       modules = [
         ./configuration.nix
 	./noctalia.nix
+	./controlcenter.nix
         home-manager.nixosModules.home-manager
         {
           home-manager = {

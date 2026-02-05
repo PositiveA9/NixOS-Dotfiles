@@ -25,7 +25,7 @@
 					left = 3;
 					right = 0;
 				};
-				width = 20;
+				width = 15;
 			};
 			modules = [
 				"break"
@@ -133,7 +133,6 @@
       ll = "ls -l";
       edit = "sudo -e";
       update = "sudo nixos-rebuild switch --flake /etc/nixos#nixos";
-      bash = "zsh";
       pipes = "cd ~/pipes.sh && ./pipes.sh";
       home = "sudo vim /etc/nixos/home.nix";
       config = "sudo vim /etc/nixos/configuration.nix";
@@ -141,6 +140,8 @@
       noctalia = "sudo vim /etc/nixos/noctalia.nix";
       niriconfig = "vim ~/.config/niri/config.kdl";
       balatro = "wine64 ~/Downloads/Balatro/Balatro.exe";
+      ultrakill = "wine64 ~/ULTRAKILL/ULTRAKILL.exe";
+      push = "cd /etc/nixos && sudo git add . && sudo git commit -m 'Manual update' && sudo git push";
     };
 
     history.size = 10000;
